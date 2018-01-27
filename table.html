@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Table Test</title>
+  <style>
+    .layout {
+      width: 500px;
+      margin:0 auto;
+    }
+    .table_layout{
+      margin-top:20px;
+      width:100%;
+      border: 1px solid #ccc;
+      border-collapse:collapse
+    }
+    .table_layout tr {
+      border-bottom: 1px solid #ccc;
+    }
+
+    .table_layout tr th {
+      text-align:left;
+      padding: 8px;
+    }
+    .table1 tr th {
+      background-color:#4CAF50;
+      color:#fff;
+    }
+    .table_layout tr td {
+      padding:8px;
+
+    }
+    .table_layout tr:nth-of-type(even)
+    {
+      background-color:#eee;
+    }
+    .table_layout.table2 {
+      border:none;
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <table class="table_layout table1">
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Points</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+        <td>Bo</td>
+        <td>Nilsson</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Mike</td>
+        <td>Rose</td>
+        <td>35</td>
+      </tr>
+    </table>
+    <table class="table_layout table2">
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Points</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+        <td>Bo</td>
+        <td>Nilsson</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Mike</td>
+        <td>Rose</td>
+        <td>35</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
