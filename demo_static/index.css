@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color:#fff2e3;
+    font-size: 14px/1.4;
+    font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 4px 7px;
+    color: #fff;
+    background-color: #72b890;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.btn:active {
+    opacity: 1;
+}
+
+.title {
+    font-size: 45px;
+    margin-top: 40px;
+    color: #87968e;
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 14px;
+    color: #87968e;
+    margin-top: 20px;
+}
+
+.tab-ct {
+    margin-top: 30px;
+}
+
+.tab-ct>li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.work-img {
+    margin-top: 40px;
+}
+
+.more {
+    margin-top: 30px;
+}
+
+.more>li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.footer {
+    margin-top: 20px;
+    color: #87968e;
+}
+
+.footer a {
+    color: #72b890;
+}
+
